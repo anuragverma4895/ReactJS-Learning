@@ -1,3 +1,4 @@
+import Comp2 from "./Comp2";
 function Comp1(){
   const a=2;
   let b;
@@ -15,6 +16,8 @@ function Comp1(){
       &nbsp;&nbsp;
       <a href="https://www.facebook.com">Facebook</a>
       <a href="https://www.twitter.com">Twitter</a>
+      <br />
+      <Comp2 />
     </>
   )
 }
